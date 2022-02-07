@@ -1,0 +1,25 @@
+
+
+#navbar {
+    background-color: #cecece;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+  }
+  #navbar > * {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+    #menu{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    #menu>div{
+        text-align: center;
+        border: 1px solid gray;
+        margin: 10px;
+    }
+    img{
+        width: 80%;
+    }
